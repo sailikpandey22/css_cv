@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  width: 20%;
+  font-size: 71px;
+  margin: 0 auto;
+}
+.top-container {
+  background-color: #bde6f1;
+  padding: 20px;
+  height: 748px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.name {
+  position: absolute;
+  font-family: "Sacramento", cursive;
+  left: 575px;
+  top: 120px;
+}
+.mountain {
+  position: relative;
+  top: 388px;
+}
+.name1 {
+  position: relative;
+  top: 155px;
+  font-family: monospace;
+  font-size: 25px;
+}
+.profile-image {
+  height: 220px;
+  padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  transition: transform 0.2s;
+}
+
+.profile-image:hover {
+  transform: scale(1.13);
+}
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 50px;
+}
+.text1 {
+  font-family: "Ephesis", cursive;
+  font-size: 30px;
+}
+hr {
+  background-color: #fdf6ec;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 5%;
+}
+h3 {
+  font-family: "Major Mono Display", monospace;
+}
+.avatar1 {
+  height: 200px;
+  position: absolute;
+  left: 300px;
+  top: 1428px;
+}
+.skill {
+  font-size: 60px;
+  color: #187498;
+}
+.skill-title1 {
+  font-size: 30px;
+  background-color: #36ae7c;
+  position: absolute;
+  left: 600px;
+  top: 1448px;
+}
+.skill-content1 {
+  text-align: left;
+  font-size: 20px;
+  font-family: "Red Hat Mono", monospace;
+  position: absolute;
+  left: 600px;
+  top: 1508px;
+}
+.avatar2 {
+  height: 200px;
+  position: absolute;
+  left: 1000px;
+  top: 1658px;
+}
+.skill-title2 {
+  font-size: 30px;
+  background-color: #36ae7c;
+  position: absolute;
+  left: 400px;
+  top: 1688px;
+}
+.skill-content2 {
+  text-align: left;
+  font-size: 20px;
+  font-family: "Red Hat Mono", monospace;
+  position: absolute;
+  left: 400px;
+  top: 1748px;
+}
+.hr2 {
+  background-color: #fdf6ec;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 5%;
+  position: absolute;
+  top: 1908px;
+  left: 684px;
+}
+.work-help {
+  font-size: 40px;
+  font-family: "Azeret Mono", monospace;
+  color: #005555;
+  position: absolute;
+  left: 600px;
+  top: 1958px;
+}
+.work-help-title {
+  font-size: 25px;
+  font-family: "Azeret Mono", monospace;
+  color: #069a8e;
+  position: absolute;
+  left: 380px;
+  top: 2058px;
+}
+.work-help-content {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Red Hat Mono", monospace;
+  position: absolute;
+  left: 290px;
+  top: 2158px;
+}
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: "Red Hat Mono", monospace;
+  color: #1b7f69;
+  font-size: 26px;
+  background: #45b29a;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 2300px;
+  left: 600px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #3d9c87;
+  text-decoration: none;
+}
+.socialmedia-container {
+  background-color: #82dbd8;
+  position: absolute;
+  top: 2500px;
+  width: 100%;
+  height: 200px;
+}
+.linkedin {
+  font-size: 20px;
+  color: #006e7f;
+  font-family: "Azeret Mono", monospace;
+  position: absolute;
+  top: 40px;
+  left: 350px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.linkedin:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.google {
+  font-size: 20px;
+  color: #006e7f;
+  font-family: "Azeret Mono", monospace;
+  position: absolute;
+  top: 40px;
+  left: 550px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.google:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.instagram {
+  font-size: 20px;
+  color: #006e7f;
+  font-family: "Azeret Mono", monospace;
+  position: absolute;
+  top: 40px;
+  left: 950px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.instagram:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.copyright {
+  font-size: 10px;
+  color: #006e7f;
+  font-family: "Azeret Mono", monospace;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 100px;
+  transition: 0.2s;
+}
